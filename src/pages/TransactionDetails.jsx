@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import dotenv from "dotenv";
-import process from "process";
 import { useDispatch, useSelector } from "react-redux";
 import emailjs from "emailjs-com";
 import "jspdf-autotable";
@@ -13,7 +11,6 @@ import BrokerDetails from "../components/BrokerDetails";
 import Summary from "../components/Summary";
 import jsPDF from "jspdf";
 import domtoimage from "dom-to-image";
-dotenv.config();
 
 const TransactionDetails = () => {
   const dispatch = useDispatch();
@@ -102,10 +99,10 @@ const TransactionDetails = () => {
         };
 
         await emailjs.send(
-          process.env.REACT_APP_EMAILJS_SERVICE_ID,
-          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
+          import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           templateParams,
-          process.env.REACT_APP_EMAILJS_USER_ID
+          import.meta.env.REACT_APP_EMAILJS_USER_ID
         );
 
         alert("Email sent successfully! on talent@sarvadhi.com");
