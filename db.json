@@ -1,0 +1,85 @@
+{
+  "brokers": [
+    {
+      "id": "1",
+      "name": "Rohit Anil",
+      "email": "rp774362@gmail.com",
+      "phone": "09664921373",
+      "address": "123 Main St, City, Country",
+      "brokerRate": 5,
+      "active": true,
+      "company": "Logwintech Pvt Ltd."
+    },
+    {
+      "id": "aae8",
+      "name": "Rohit Anil Patil",
+      "email": "rp774362@gmail.com",
+      "phone": "09664921373",
+      "address": "789 Oak St, City, Country",
+      "brokerRate": 7,
+      "active": false,
+      "company": "Logwintech Pvt Ltd."
+    },
+    {
+      "id": "a9b9",
+      "name": "Kurtis Weissnating",
+      "email": "rohitpatil0127@gmail.com",
+      "phone": "879896",
+      "address": "bhatar",
+      "brokerRate": "4",
+      "active": true
+    }
+  ],
+  "diamonds": [
+    {
+      "stockNo": "1234567ABC",
+      "carat": 1.5,
+      "shape": "Round",
+      "color": "D",
+      "clarity": "VS1",
+      "rapPrice": 10000,
+      "discount": -20,
+      "ppc": 8000,
+      "totalAmount": 12000,
+      "id": "1"
+    },
+    {
+      "stockNo": "2345678DEF",
+      "carat": 2,
+      "shape": "Princess",
+      "color": "E",
+      "clarity": "VVS2",
+      "rapPrice": 15000,
+      "discount": -30,
+      "ppc": 10500,
+      "totalAmount": 21000,
+      "id": "2"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "cc51",
+      "stockNo": "2563577SGZ",
+      "carat": "12",
+      "shape": "rec",
+      "color": "red",
+      "clarity": "120",
+      "rapPrice": "120",
+      "discount": "20",
+      "ppc": "12024",
+      "totalAmount": 144288
+    },
+    {
+      "id": "d4af",
+      "stockNo": "7424427DMA",
+      "carat": "22",
+      "shape": "round",
+      "color": "white",
+      "clarity": "100",
+      "rapPrice": "100",
+      "discount": "10",
+      "ppc": "10010",
+      "totalAmount": 220220
+    }
+  ]
+}
